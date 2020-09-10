@@ -27,58 +27,12 @@ int r=0;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        radioGroup = (RadioGroup) findViewById(R.id.groube);
-        r1=findViewById(R.id.radio_pirates);
-        r2=findViewById(R.id.radio_ninjas);
-
-
         b = findViewById(R.id.button);
-     /*   b.setOnClickListener(new View.OnClickListener() {
+        b.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent n=new Intent(MainActivity.this,Quize.class);
                 startActivity(n);
             }
-        });*/
-          b.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    r++;
-                    Handler handler=new Handler();
-                    handler.postDelayed(new Runnable() {
-                        @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-                        @Override
-                        public void run() {
-                            if(r==1){
-                                b.setText("next");
-                                int selectedId = radioGroup.getCheckedRadioButtonId();
-                                radioButton = (RadioButton) findViewById(selectedId);
-                            if(radioButton.getText().equals("الايمن")){
-                                radioButton.setBackground(getDrawable(R.drawable.desine_answer));
-                                r1.setEnabled(false);
-                                r2.setEnabled(false);
-
-                            }
-
-
-                            }else if(r==2){
-                                Toast.makeText(getApplicationContext(), "xikmxa", Toast.LENGTH_SHORT).show();
-                                b.setText("cssckmxmxwaxawxaws");
-
-                            }else if(r==3){
-                                Toast.makeText(getApplicationContext(), "xikmxa", Toast.LENGTH_SHORT).show();
-                                b.setText("cemiecji");
-                        }}
-                    },500);
-
-
-                }
-
-            });
-        }}
-
-       // TextView t=findViewById(R.id.textView);
-       // String f=getResources().getString(R.string.app_name);
-       // t.setText(f+"");
-
-
+        });
+   }}
