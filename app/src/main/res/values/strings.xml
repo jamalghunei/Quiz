@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name"> Quastions </string>
+
+    <string name="name_qustion">What is the most popular mobile OS in the world ?</string>
+    <string name="appp_qustion">qustion</string>
+    <string name="app_answer11">iOS</string>
+    <string name="app_answer12">Android</string>
+    <string name="app_answer13">Windows Phone</string>
+    <string name="app_cheak">Confirm</string>
+    <string name="next_btn">Next</string>
+    <string name="number_Quastion1">1/5</string>
+
+    <string name="name_qustion2">What programming language we use to develop Android apps ?</string>
+    <string name="app_answer21">Python</string>
+    <string name="app_answer22">JavaScript</string>
+    <string name="app_answer23">Java</string>
+    <string name="number_Quastion2">2/5</string>
+
+
+    <string name="name_qustion3">What is the name of the company that develop Android platform ?</string>
+    <string name="app_answer31">Facebook</string>
+    <string name="app_answer32">Udacity</string>
+    <string name="app_answer33">Google</string>
+    <string name="number_Quastion3">3/5</string>
+
+
+    <string name="name_qustion4">What is the official IDE for Android development ?</string>
+    <string name="app_answer41">Android IDE</string>
+    <string name="app_answer42">Android Studio</string>
+    <string name="app_answer43">Eclipse</string>
+    <string name="number_Quastion4">4/5</string>
+
+
+    <string name="name_qustion5">What is the latest version of Android ?</string>
+    <string name="app_answer51">Pie</string>
+    <string name="app_answer52">10</string>
+    <string name="app_answer53">Oreo</string>
+    <string name="number_Quastion5">5/5</string>
+    <string name="quastion_finally">Finaly</string>
+
+
+</resources>
